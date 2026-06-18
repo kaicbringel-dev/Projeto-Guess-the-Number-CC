@@ -1,2 +1,71 @@
 # Projeto-Guess-the-Number-CC
 "Guess the Number" é um projeto para a disciplina de Circuitos Digitais desenvolvido no Logisim. Universidade Federal do Cariri
+**Disciplina:** Circuitos Digitais | UFCA
+**Professor:** Ramon Nepomuceno
+
+## Sobre o projeto
+Sistema de **adivinhação de números binários** aleatórios de 4 bits desenvolvido no **Logisim**. O circuito avalia o palpite do jogador, calcula a distância em relação ao valor correto e fornece a distância baseada na intensidade das cores **vermelha** (perto) e **azul** (longe).  
+
+  ## Desenvolvimento
+| Atividade |
+| :--- |
+Início da implementação do circuito `circuito_diferenca`. |
+Início da implementação do circuito `circuito_comparador`. |
+
+## - Circuitos 2/4
+
+### I. Circuito "Diferença"
+
+* **Objetivo:** Calcular a distância $|A - B|$ entre o chute do usuário e a resposta.
+   
+* **Componentes:**  
+    * 2 subtratores de 4 bits feitos manualmente, um para A-B, outro para B-A.
+    * 1 Multiplexador (MUX) manual 2x1 para seleção do resultado positivo $|A - B|$.
+    * 3 pinos: Escolha do Usuário, da CPU e Distância.
+        
+* **Desafios/Bugs**
+   * Implementação manual dos subtratores.
+   * Falha na lógica de Borrow-out.
+   * Inversão dos BITS no Distribuidor.
+
+<details>
+  <summary><a href="#diferenca">Clique para abrir a imagem do Subcircuito Diferenca</a></summary>
+  <br>
+  
+  ![Circuito Diferença](./img/circuito_diferenca.svg)
+</details>
+
+<br>
+<br>
+
+### II. Circuito "Comparador"
+
+* **Objetivo:** Verificar a possível igualdade entre o número A _(chute do usuário)_ e B _(resposta)_.
+   
+* **Componentes:**
+  **Opção 1:**
+  * 8 pinos de Entrada: A1-A2-A3-A4 e B1-B2-B3-B4.
+  * 4 portas XNOR para compara se A1 = B1; A2 = B2; A3 = B3; A4 = B4.
+  * 1 porta AND para comparar se todos são iguais.
+  * 1 porta de Saída (S) para dizer se é igual(1) ou não(0).
+ 
+  **Opção 2:**
+  * 2 pinos de Entrada de 4 bits (A e B).
+  * 2 distribuidores de 4 bits de entrada e saída.
+  * 4 portas XNOR para comparar os valores.
+  * 1 porta AND para comparar se todos são iguais.
+  * 1 porta de Saída (S) para dizer se é igual(1) ou não(0).
+        
+* **Desafios/Bugs**
+    <p>Nenhum.</p>
+
+<details>
+  <summary><a href="#comparador">Clique para abrir a imagem do Subcircuito Comparador</a></summary>
+  <br>
+
+  ![Circuito Comparador]([./img/circuito_comparador.svg](https://troubled-coral-klxduz0i.edgeone.dev/comparador.png))
+</details>
+    
+<br>
+<br>
+
