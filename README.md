@@ -1,4 +1,4 @@
-# Projeto-Guess-the-Number-CC
+<img width="988" height="684" alt="comparador" src="https://github.com/user-attachments/assets/6c009fa0-7e8d-4b29-9977-81af88f846fd" /># Projeto-Guess-the-Number-CC
 "Guess the Number" é um projeto para a disciplina de Circuitos Digitais desenvolvido no Logisim. Universidade Federal do Cariri
 **Disciplina:** Circuitos Digitais | UFCA
 **Professor:** Ramon Nepomuceno
@@ -16,7 +16,7 @@ Início da implementação do circuito `circuito_comparador`. |
 
 ### I. Circuito "Diferença"
 
-* **Objetivo:** Calcular a distância $|A - B|$ entre o chute do usuário e a resposta.
+* **Premissa:** Calcular a distância $|A - B|$ entre o chute do usuário e a resposta.
    
 * **Componentes:**  
     * 2 subtratores de 4 bits feitos manualmente, um para A-B, outro para B-A.
@@ -24,15 +24,13 @@ Início da implementação do circuito `circuito_comparador`. |
     * 3 pinos: Escolha do Usuário, da CPU e Distância.
         
 * **Desafios/Bugs**
-   * Implementação manual dos subtratores.
-   * Falha na lógica de Borrow-out.
-   * Inversão dos BITS no Distribuidor.
+   
 
 <details>
   <summary><a href="#diferenca">Clique para abrir a imagem do Subcircuito Diferenca</a></summary>
   <br>
   
-  ![Circuito Diferença](./img/circuito_diferenca.svg)
+  ![Circuito Diferença]()
 </details>
 
 <br>
@@ -40,7 +38,7 @@ Início da implementação do circuito `circuito_comparador`. |
 
 ### II. Circuito "Comparador"
 
-* **Objetivo:** Verificar a possível igualdade entre o número A _(chute do usuário)_ e B _(resposta)_.
+* **Premissa:** Verificar a possível igualdade entre o número A e B.
    
 * **Componentes:**
   **Opção 1:**
@@ -63,7 +61,8 @@ Início da implementação do circuito `circuito_comparador`. |
   <summary><a href="#comparador">Clique para abrir a imagem do Subcircuito Comparador</a></summary>
   <br>
 
-  ![Circuito Comparador]([./img/circuito_comparador.svg](https://troubled-coral-klxduz0i.edgeone.dev/comparador.png))
+  ![Circuito Comparador](<img width="988" height="684" alt="comparador" src="https://github.com/user-attachments/assets/b40df9d5-faa6-434d-8d51-42b03aa6fa20" />
+)
 </details>
     
 <br>
