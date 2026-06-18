@@ -41,7 +41,6 @@ Início da implementação do circuito `circuito_comparador`. |
 * **Premissa:** Verificar a possível igualdade entre o número A e B.
    
 * **Componentes:**
-<br>
   **Opção 1:**
   * 8 pinos de Entrada: A1-A2-A3-A4 e B1-B2-B3-B4.
   * 4 portas XNOR para compara se A1 = B1; A2 = B2; A3 = B3; A4 = B4.
