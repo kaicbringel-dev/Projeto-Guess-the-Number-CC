@@ -1,4 +1,4 @@
-<img width="988" height="684" alt="comparador" src="https://github.com/user-attachments/assets/6c009fa0-7e8d-4b29-9977-81af88f846fd" /># Projeto-Guess-the-Number-CC
+# Projeto-Guess-the-Number-CC
 "Guess the Number" é um projeto para a disciplina de Circuitos Digitais desenvolvido no Logisim. Universidade Federal do Cariri
 **Disciplina:** Circuitos Digitais | UFCA
 **Professor:** Ramon Nepomuceno
