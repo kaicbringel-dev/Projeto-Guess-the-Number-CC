@@ -64,3 +64,24 @@ Implementação do circuito `circuito_comparador`.
 <br>
 <br>
 
+## II.I . Circuito de Comparador de Magnitude
+
+* **Premissa:** Verificar se A = B ou A > B ou A < B
+
+* **Componentes:**
+  * 8 pinos de entrada A1;A2;A3;A4;B1;B2;B3;B4.
+  * 4 portas XNOR
+  * 4 portas NOT
+  * 5 portas AND
+  * 1 portas OR
+  * 1 porta NOR
+ 
+<details>
+  <summary><a href="#comparador">Clique para abrir a imagem do Subcircuito Comparador</a></summary>
+  <br>
+<img width="1692" height="1390" alt="image" src="https://github.com/user-attachments/assets/f2568cd8-26ca-4d82-9ffd-652116cf9238" />
+</details>
+    
+<br>
+<br>
+
