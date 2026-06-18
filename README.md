@@ -60,9 +60,7 @@ Início da implementação do circuito `circuito_comparador`. |
 <details>
   <summary><a href="#comparador">Clique para abrir a imagem do Subcircuito Comparador</a></summary>
   <br>
-
-  ![Circuito Comparador](<img width="988" height="684" alt="comparador" src="https://github.com/user-attachments/assets/b40df9d5-faa6-434d-8d51-42b03aa6fa20" />
-)
+<img width="988" height="684" alt="comparador" src="https://github.com/user-attachments/assets/6c009fa0-7e8d-4b29-9977-81af88f846fd" />
 </details>
     
 <br>
