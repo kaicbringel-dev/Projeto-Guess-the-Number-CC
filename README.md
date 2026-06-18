@@ -7,10 +7,8 @@
 Sistema de **adivinhação de números binários** aleatórios de 4 bits desenvolvido no **Logisim**. O circuito avalia o palpite do jogador, calcula a distância em relação ao valor correto e fornece a distância baseada na intensidade das cores **vermelha** (perto) e **azul** (longe).  
 
   ## Desenvolvimento
-| Atividade |
-| :--- |
-Início da implementação do circuito `circuito_diferenca`. |
-Início da implementação do circuito `circuito_comparador`. |
+Implementação do circuito `circuito_diferenca`. |
+Implementação do circuito `circuito_comparador`. |
 
 ## - Circuitos 2/4
 
